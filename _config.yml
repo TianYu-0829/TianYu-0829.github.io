@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Tianyu's Homepage"
-description              : "Personal academic homepage"
+description              : "PhD student at Xidian University focusing on cloud and agent security, MCP security, and vulnerability discovery."
 repository               : "TianYu-0829/TianYu-0829.github.io"
 # google_scholar_stats_use_cdn : true
 
@@ -29,6 +29,7 @@ author:
   pubmed           : 
   # googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "skywings0829@stu.xidian.edu.cn"
+  wechat           : "Tianyu_skywings"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "TianYu-0829"
   google_plus      :
   keybase          :
   instagram        :

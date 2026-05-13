@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "About me"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -8,51 +8,34 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a PhD student at the School of Cyber Engineering, Xidian University.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests include cloud computing security, agent security, MCP security, and skill security. I focus on attack surface analysis, attack discovery, and vulnerability exploration to uncover security risks in emerging intelligent and cloud computing systems and to advance their security development. You can contact me through the information provided on my homepage.
 
+<span class='anchor' id='publications'></span>
+# 📝 Publications
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+More details will be uploaded later.
 
-# 📝 Publications 
+<span class='anchor' id='vuln-disclosure'></span>
+# 🐞 Vulnerabilities Discovery and Disclosure
+- **2026.04 · Arbitrary File Read** — [generate_hunyuan3d_model in blender-mcp](https://github.com/ahujasid/blender-mcp/issues/202) (`Closed`)
+- **2026.04 · SSRF** — [import_generated_asset_hunyuan in blender-mcp](https://github.com/ahujasid/blender-mcp/issues/203) (`Closed`)
+- **2026.04 · SSRF** — [`read_file` URL fetching in DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP/issues/410) (`Closed`)
+- **2026.04 · Data Exfiltration / Path Validation** — [project_root_path validation in acemcp](https://github.com/qy527145/acemcp/issues/19) (`Closed`)
+- **2026.04 · ReDoS** — [Excel/DOCX content search in DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP/issues/375) (`Closed`)
+- **2026.04 · RCE** — [browser_run_code in playwright-mcp](https://github.com/microsoft/playwright-mcp/issues/1495) (`Closed`)
+- **2026.03 · Arbitrary File Read** — [file path validation in spec-workflow-mcp](https://github.com/Pimzino/spec-workflow-mcp/issues/201) (`Closed`)
+- **2026.03 · ReDoS** — [unvalidated patterns in code-index-mcp](https://github.com/johnhuang316/code-index-mcp/issues/84) (`Closed`)
+- **2026.03 · RCE** — [`start_runtime` in Genkit MCP Server](https://github.com/genkit-ai/genkit/issues/5008) (`Open`)
+- **2026.03 · RCE** — [execute_blender_code in blender-mcp](https://github.com/ahujasid/blender-mcp/issues/201) (`Open`)
+- **2026.01 · RCE** — [unsanitized projectPath in godot-mcp](https://github.com/Coding-Solo/godot-mcp/issues/64) (`Closed`, `CVE-2026-25546`)
+- **2025.12 · RCE** — [OpenOps Terraform block vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2025-68922) (`Published`, `CVE-2025-68922`)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<span class='anchor' id='papers-reading'></span>
+# 📚 Papers Currently Reading
+- Jing et al. - [*MCIP: Protecting MCP Safety via Model Contextual Integrity Protocol*](https://arxiv.org/abs/2505.14590)
+- Hou et al. (2026) - [*Unsafe by Flow: Uncovering Bidirectional Data-Flow Risks in MCP Ecosystem*](https://arxiv.org/abs/2605.07836)
+- Maloyan and Namiot (2026) - [*Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents*](https://arxiv.org/abs/2601.17549)
